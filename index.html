@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script
+      src="https://kit.fontawesome.com/1782d53993.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="main.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Poppins"
+    />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XFM7K3DV45"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-XFM7K3DV45');
+</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page</title>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <img src="./images/logo.png" alt="my-logo" />
+
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>  
+        <a href="about.html">About me</a>
+        <!-- <a href="projects.html">Projects</a> -->
+        <a href="contact.html">Contact me</a>
+      </nav>
+    </header>
+    <main>
+      <section class="home">
+        <section class="intro" data-aos="zoom-in-up">
+          <div class="text-wrapper">
+            <h1> I'm KirinThapar</h1> <br><h1> I design awesome webistes</h1>
+            <h6>I'm a freelance web designer and developer based in Cardiff </h6>
+            
+            <input
+              type="button"
+              class="contact"
+              onClick="location.href='contact.html'"
+              value="Contact me "
+            />
+            
+          </div>
+        </section>
+      </section>
+    </main>
+    <footer>
+      <p class="copywright">
+        Designed & built by Kirin Thapar &#169; <span id="year"></span>
+      </p>
+      <ul>
+        <li>
+          <a
+            href="mailto:kirinthapar@yandex.com"
+            target="blank"
+            aria-hidden="true"
+            class="fa fa-envelope-3xx"
+          ></a>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        delay: 20,
+        easing: "ease-in",
+        duration: 800,
+      });
+    </script>
+    <script src="main.js"></script>
+  </body>
+</html>
