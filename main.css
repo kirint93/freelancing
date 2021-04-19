@@ -486,9 +486,12 @@ footer p {
   .button {
     width: 20%;
   }
+  h6 {
+    line-height: 30px;
+  }
   .me {
-    width: 400px;
-    margin-left: 20px;
+    width: 300px;
+    margin-left: 30px;
   }
   .project-container {
     display: -ms-grid;

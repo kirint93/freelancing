@@ -83,7 +83,7 @@ h6 {
   color: $color;
   margin-top: 8%;
   line-height: 15px;
-  
+
   font-size: 20px;
   font-family: "Poppins";
 }
@@ -113,7 +113,7 @@ h6 {
       font-size: 23px;
       height: 10vh;
       width: 40%;
-      margin:22px 0px;
+      margin: 22px 0px;
     }
 
     .span h3 {
@@ -130,7 +130,7 @@ h6 {
 }
 .me {
   margin-left: 440px;
-  
+
   height: 20%;
   width: 30%;
   border-radius: 20%;
@@ -157,39 +157,38 @@ h6 {
 //   margin-bottom: 10%;
 //   width: fit-content;
 
-  h3 {
-    color: $primary-color;
-    padding-bottom: 2%;
-  }
+h3 {
+  color: $primary-color;
+  padding-bottom: 2%;
+}
 
-  .icon {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    margin-bottom: 5%;
-  }
+.icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-bottom: 5%;
+}
 
-  // .soft-skills {
-  //   position: relative;
-  //   padding-left: 10px;
-  //   padding-right: 10px;
-  //   margin: 0px 60px 0 60px;
-  //   //
+// .soft-skills {
+//   position: relative;
+//   padding-left: 10px;
+//   padding-right: 10px;
+//   margin: 0px 60px 0 60px;
+//   //
 
-  //   margin-bottom: 70px;
+//   margin-bottom: 70px;
 
-    h3 {
-      padding-top: 2%;
-      color: $primary-color;
-      font-size: 20px;
-    }
-  // }
+h3 {
+  padding-top: 2%;
+  color: $primary-color;
+  font-size: 20px;
+}
+// }
 // }
 .projects {
   background-color: $Tertiary-color;
   padding-top: 1%;
-  
 }
 
 .project-container {
@@ -199,7 +198,7 @@ h6 {
   grid-template-columns: repeat(4, 1fr);
   gap: 30px;
   margin: auto;
-  
+
   //margin-top: 20px;
 }
 
@@ -283,7 +282,6 @@ h6 {
   height: 330px;
 }
 
-
 .card-link {
   text-decoration: none;
   border: 2px solid $Tertiary-color;
@@ -295,7 +293,6 @@ h6 {
 
   margin-left: 12%;
 }
-
 
 .div {
   border: 2px solid #fff;
@@ -424,14 +421,12 @@ footer {
 }
 
 @media only screen and (max-width: 420px) {
-
-  nav{
-   
-    img{
+  nav {
+    img {
       display: none;
     }
 
-    a{
+    a {
       width: 100%;
       font-size: 14px;
     }
@@ -439,79 +434,82 @@ footer {
   .button {
     width: 20%;
   }
-  .me{
-    width: 400px;
-    margin-left: 20px;
+
+  h6{
+    line-height: 30px;
+  }
+  .me {
+    width: 300px;
+    margin-left: 30px;
+
   }
   .project-container {
     display: grid;
     grid-template-columns: 1fr;
+  
+  
+
   }
- .contact-body{
-  width: 100%;
-  height: 80vh;
+  .contact-body {
+    width: 100%;
+    height: 80vh;
 
-  .contact-icons-container {
-    margin-top: 3px;
-    justify-content: center;
-    width: 14%;
-    height: 58%;
-    display: flex;
-    flex-direction: row;
+    .contact-icons-container {
+      margin-top: 3px;
+      justify-content: center;
+      width: 14%;
+      height: 58%;
+      display: flex;
+      flex-direction: row;
 
-    margin-left: 140px;
+      margin-left: 140px;
 
-    a {
-      margin: 20px 20px 1px;
-      margin-top: 1px;
+      a {
+        margin: 20px 20px 1px;
+        margin-top: 1px;
+      }
     }
-  }
-  .contact-form {
-    
-    width: 80%;
-    margin-bottom: 8%;
-    margin-top: 4%;
-    margin-left:30px;
+    .contact-form {
+      width: 80%;
+      margin-bottom: 8%;
+      margin-top: 4%;
+      margin-left: 30px;
 
-    padding: 4px;
-    border-radius: 5px;
-    display: flex;
-    flex-direction: column;
-
-    .input-fields {
+      padding: 4px;
+      border-radius: 5px;
       display: flex;
       flex-direction: column;
-      margin-right: 1px;
-      width: 100%;
-      padding: 20px;
-    }
 
-    .input-fields,
-    .content {
-      width: 100%;
+      .input-fields {
+        display: flex;
+        flex-direction: column;
+        margin-right: 1px;
+        width: 100%;
+        padding: 20px;
+      }
 
-      input,
-      textarea {
-        margin: 10px 0;
-        
+      .input-fields,
+      .content {
         width: 100%;
 
-  
-      }
+        input,
+        textarea {
+          margin: 10px 0;
 
-      textarea {
-        height: 210px;
-      }
-      .button {
-        width: 60%;
-        align-items: center;
-        margin-left: 30px;
-        
-    
+          width: 100%;
+        }
+
+        textarea {
+          height: 210px;
+        }
+        .button {
+          width: 60%;
+          align-items: center;
+          margin-left: 30px;
+        }
       }
     }
   }
-}
 }
 
 @media only screen and (min-width: 1440px) {
@@ -523,18 +521,15 @@ footer {
     flex-direction: row;
     margin-left: 15%;
   }
-
-  
 }
 
-@media only screen and (max-width: 768px) {  
-  nav{
-   
-    img{
+@media only screen and (max-width: 768px) {
+  nav {
+    img {
       display: none;
     }
 
-    a{
+    a {
       width: 100%;
       font-size: 14px;
     }
@@ -542,7 +537,7 @@ footer {
 }
 
 @media screen and (min-width: 2400px) {
-  .icon{
+  .icon {
     margin-left: 1200px;
   }
 }
